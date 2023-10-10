@@ -1,7 +1,7 @@
 import requests
 import matplotlib.pyplot as plt
 
-api_key = '9e19211b3ea0d2f24da279632b57a423'
+api_key = open("api_key.txt", "r").read()
 
 company = "AAPL"
 years = 2
